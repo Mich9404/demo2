@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class Demo2Application implements CommandLineRunner {
 
-	private static Logger log = LoggerFactory.getLogger(DemoApplication.class);
+	private static Logger log = LoggerFactory.getLogger(Demo2Application.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(Demo2Application.class, args);
